@@ -1,0 +1,130 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "created_at": "2026-08-25T06:32:26.956116+00:00",
+      "name": "Brown Sugar Oat Latte",
+      "sku": "BRW-002",
+      "category": "Espresso",
+      "price": 185.0,
+      "stock": 18,
+      "emoji": "\u25d2"
+    },
+    {
+      "id": 3,
+      "created_at": "2026-08-25T06:32:26.956116+00:00",
+      "name": "Spanish Latte",
+      "sku": "BRW-003",
+      "category": "Espresso",
+      "price": 175.0,
+      "stock": 32,
+      "emoji": "\u25c9"
+    },
+    {
+      "id": 4,
+      "created_at": "2026-08-25T06:32:26.956116+00:00",
+      "name": "Strawberry Matcha",
+      "sku": "BRW-004",
+      "category": "Non-coffee",
+      "price": 195.0,
+      "stock": 12,
+      "emoji": "\u2726"
+    },
+    {
+      "id": 5,
+      "created_at": "2026-08-25T06:32:26.956116+00:00",
+      "name": "Dark Cocoa Mocha",
+      "sku": "BRW-005",
+      "category": "Non-coffee",
+      "price": 185.0,
+      "stock": 12,
+      "emoji": "\u25cf"
+    },
+    {
+      "id": 6,
+      "created_at": "2026-08-25T06:32:26.956116+00:00",
+      "name": "Butter Croissant",
+      "sku": "BRW-006",
+      "category": "Pastries",
+      "price": 120.0,
+      "stock": 28,
+      "emoji": "\u25c6"
+    },
+    {
+      "id": 7,
+      "created_at": "2026-08-25T06:32:26.956116+00:00",
+      "name": "Cinnamon Bun",
+      "sku": "BRW-007",
+      "category": "Pastries",
+      "price": 135.0,
+      "stock": 12,
+      "emoji": "\u2600"
+    },
+    {
+      "id": 8,
+      "created_at": "2026-08-25T06:32:26.956116+00:00",
+      "name": "Brewed Coffee",
+      "sku": "BRW-008",
+      "category": "Espresso",
+      "price": 110.0,
+      "stock": 36,
+      "emoji": "\u25cc"
+    },
+    {
+      "id": 9,
+      "name": "Matcha",
+      "sku": "BRW-008",
+      "category": "Non-Coffee",
+      "price": 200.0,
+      "stock": 50,
+      "emoji": "\u2615"
+    }
+  ],
+  "sales": [
+    {
+      "id": 1048,
+      "created_at": "2026-08-25T06:32:26.956116+00:00",
+      "date": "Aug 24, 2026 \u00b7 10:42 AM",
+      "customer": "Walk-in customer",
+      "items": 3,
+      "total": 86.0,
+      "status": "completed"
+    },
+    {
+      "id": 1047,
+      "created_at": "2026-08-25T06:32:26.956116+00:00",
+      "date": "Aug 24, 2026 \u00b7 09:18 AM",
+      "customer": "Maya Chen",
+      "items": 2,
+      "total": 46.0,
+      "status": "completed"
+    },
+    {
+      "id": 1046,
+      "created_at": "2026-08-25T06:32:26.956116+00:00",
+      "date": "Aug 23, 2026 \u00b7 04:51 PM",
+      "customer": "Walk-in customer",
+      "items": 1,
+      "total": 32.0,
+      "status": "completed"
+    },
+    {
+      "id": 1045,
+      "created_at": "2026-08-25T06:32:26.956116+00:00",
+      "date": "Aug 23, 2026 \u00b7 02:22 PM",
+      "customer": "Jon Bell",
+      "items": 4,
+      "total": 83.0,
+      "status": "pending"
+    },
+    {
+      "id": 1044,
+      "created_at": "2026-08-25T06:32:26.956116+00:00",
+      "date": "Aug 22, 2026 \u00b7 11:07 AM",
+      "customer": "Sofia Reed",
+      "items": 2,
+      "total": 52.0,
+      "status": "completed"
+    }
+  ]
+}
