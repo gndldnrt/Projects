@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "PjjauteijjL+JPUZUjucBSS0NxRoqmNSrlVtQ+YGNJQ=",
+  "Source": "Stockroom",
+  "BasePath": "_content/Stockroom",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Stockroom/wwwroot",
+      "Source": "Stockroom",
+      "ContentRoot": "/Users/macbookprom1/Repository/POS with Inventory/MVC/wwwroot/",
+      "BasePath": "_content/Stockroom",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/macbookprom1/Repository/POS with Inventory/MVC/wwwroot/index.html",
+      "SourceId": "Stockroom",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbookprom1/Repository/POS with Inventory/MVC/wwwroot/",
+      "BasePath": "_content/Stockroom",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
+}
