@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply m-0 min-w-[320px] bg-[#080b10] font-sans text-slate-100 antialiased; }
+  * { scrollbar-color: #334155 #080b10; }
+}
+
+@layer components {
+  .glass { @apply border border-white/[0.08] bg-white/[0.045] shadow-glow backdrop-blur-xl; }
+  .input-field { @apply w-full rounded-xl border border-white/[0.1] bg-black/20 px-4 py-3 text-sm text-white outline-none transition placeholder:text-slate-600 focus:border-emerald-400/70 focus:ring-2 focus:ring-emerald-400/10; }
+}

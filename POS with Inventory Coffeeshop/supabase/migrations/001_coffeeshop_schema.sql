@@ -1,0 +1,6 @@
+-- Phase 1 intentionally does not create or alter tables.
+-- The application uses the existing AdiDB > Coffeeshop schema:
+-- users, roles, login_history, categories, products, product_variants,
+-- product_recipes, modifier_groups, modifiers, and raw_ingredients.
+--
+-- Apply the existing master schema to Supabase, not this file.
