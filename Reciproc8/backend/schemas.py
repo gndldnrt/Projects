@@ -24,7 +24,7 @@ class ProfileCreate(BaseModel):
     full_name: str = Field(min_length=1, max_length=120)
     email: str = Field(min_length=3, max_length=320)
     bio: str = Field(default="", max_length=500)
-    zip_code: str = Field(pattern=r"^\d{5}$")
+    zip_code: str = Field(pattern=r"^\d{4}$")
     user_skills: List[SkillMapping] = Field(default_factory=list)
 
 

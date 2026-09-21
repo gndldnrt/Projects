@@ -26,6 +26,7 @@ export default defineConfig({
   define: {
     'import.meta.env.VITE_SUPABASE_URL': JSON.stringify(supabaseEnv.SUPABASE_URL ?? ''),
     'import.meta.env.VITE_SUPABASE_ANON_KEY': JSON.stringify(supabaseEnv.SUPABASE_ANON_KEY ?? ''),
+    'import.meta.env.VITE_GOOGLE_MAPS_API_KEY': JSON.stringify(supabaseEnv.VITE_GOOGLE_MAPS_API_KEY ?? ''),
   },
   server: { port: 5173 },
 });

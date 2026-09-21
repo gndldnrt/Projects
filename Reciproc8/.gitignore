@@ -5,3 +5,5 @@ frontend/.npm-cache/
 __pycache__/
 *.py[cod]
 .DS_Store
+supabase.env
+frontend/.env*

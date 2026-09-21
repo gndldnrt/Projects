@@ -1,6 +1,7 @@
 export type SkillType = 'teach' | 'learn';
 export type ExperienceLevel = 'beginner' | 'intermediate' | 'advanced';
 export type SwapStatus = 'pending' | 'accepted' | 'declined' | 'completed';
+export type SwapRequestStatus = 'Pending' | 'Accepted' | 'Declined';
 
 export interface Profile {
   id: string;
@@ -10,6 +11,7 @@ export interface Profile {
   bio: string;
   zip_code: string;
   created_at: string;
+  user_skills?: UserSkill[];
 }
 
 export interface Skill {
@@ -32,6 +34,25 @@ export interface Swap {
   sender_id: string;
   receiver_id: string;
   status: SwapStatus;
+  created_at: string;
+}
+
+export interface SwapRequest {
+  id: string;
+  sender_id: string;
+  receiver_id: string;
+  status: SwapRequestStatus;
+  created_at: string;
+  sender?: Pick<Profile, 'id' | 'full_name' | 'bio'>;
+  receiver?: Pick<Profile, 'id' | 'full_name' | 'bio'>;
+}
+
+export interface ChatMessage {
+  id: string;
+  swap_request_id: string;
+  sender_id: string;
+  receiver_id: string;
+  body: string;
   created_at: string;
 }
 

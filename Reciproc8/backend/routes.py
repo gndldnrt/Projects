@@ -64,13 +64,13 @@ async def register_profile(payload: ProfileCreate):
 
 @router.get("/profiles/local")
 async def get_local_profiles(
-    zip_code: str = Query(pattern=r"^\d{5}$"),
+    zip_code: str = Query(pattern=r"^\d{4}$"),
     radius: int = Query(default=25, gt=0, le=100),
 ):
     # ZIP ranges provide a deterministic first-pass locality filter. For exact
     # geographic distance, expose a Postgres RPC backed by ZIP centroids.
-    lower_zip = str(max(0, int(zip_code) - radius * 10)).zfill(5)
-    upper_zip = str(min(99999, int(zip_code) + radius * 10)).zfill(5)
+    lower_zip = str(max(0, int(zip_code) - radius * 10)).zfill(4)
+    upper_zip = str(min(9999, int(zip_code) + radius * 10)).zfill(4)
     nested_select = (
         "id,auth_id,full_name,email,bio,zip_code,created_at,"
         "user_skills!inner(id,profile_id,skill_id,skill_type,experience_level,"
